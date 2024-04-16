@@ -1,7 +1,7 @@
 import re
 
 # 定义正则表达式模式
-pattern = r'\b\w+\b'
+pattern = r'\b[a-zA-Z0-9]+\b'
 
 # 打开输入文件
 with open('test.xml', 'r', encoding='utf-8') as infile:
